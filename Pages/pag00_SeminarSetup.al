@@ -30,7 +30,6 @@ page 50100 "CSD Seminar Setup"
 
     trigger OnOpenPage();
     begin
-        Reset;
         if not get then begin
             init;
             insert;
