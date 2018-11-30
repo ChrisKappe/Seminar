@@ -32,6 +32,7 @@ codeunit 50100 "CSD Seminar-Post"
             end;
             SeminarRegLine.LockTable;
             SourceCodeSetup.Get;
+            SourceCodeSetup.TestField("CSD Seminar");
             SourceCode := SourceCodeSetup."CSD Seminar";
             PstdSeminarRegHeader.Init; 
             PstdSeminarRegHeader.TransferFields(SeminarRegHeader); 
