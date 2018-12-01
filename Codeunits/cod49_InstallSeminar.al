@@ -4,11 +4,23 @@ codeunit 50149 InstallSeminar
 
     trigger OnInstallAppPerCompany();
     begin
+        CreateWebService;
         if SeminarSetup.get then
             exit;
         InitSetup;
         CreateSeminar;
         CreateResources;
+    end;
+
+    local procedure CreateWebService()
+    var
+        WS: Record "Web Service";
+    begin
+        ws."Object Type" := ws."Object Type"::Page;
+        ws."Object ID" := page::"CSD WebService Seminars";
+        ws."Service Name" := 'Seminars';
+        ws.validate(Published, true);
+        if ws.Insert() then;
     end;
 
     local procedure InitSetup();
