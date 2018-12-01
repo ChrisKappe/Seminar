@@ -1433,6 +1433,16 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page CSD Posted Seminar Charges - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Report 914846338 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Seminar Reg. Participants List</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CSD Seminar Reg. Part. List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 914846338 - Control 3461750827 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Show Details</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report CSD Seminar Reg. Part. List - Control ShowDetails - Property Caption</note>
+        </trans-unit>
         <trans-unit id="PageExtension 3747827805 - Control 2205917413 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Room</source>
           <note from="Developer" annotates="general" priority="2"></note>
